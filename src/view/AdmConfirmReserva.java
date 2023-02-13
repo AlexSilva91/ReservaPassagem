@@ -4,15 +4,11 @@ import Exception.NaoHaReservas;
 import Exception.ReservaNaoEncontrada;
 import java.sql.Connection;
 import connection.ConnectionFactory;
-import dados.Cliente;
 import dados.Reserva;
-import dados.ReservaAbstrata;
 import fachada.FachadaReserva;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 

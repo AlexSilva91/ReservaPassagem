@@ -6,7 +6,6 @@ package view;
 
 import Exception.ClienteNaoEncontrado;
 import Exception.LoginOuSenhaInvalido;
-import dados.Cliente;
 import fachada.FachadaUsuario;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
